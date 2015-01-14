@@ -1,7 +1,7 @@
 elk_and_squirrel
 ================
 
-Chef cookbook for AWS OpsWorks full ELK stack & RabbitMQ.
+Chef cookbook for AWS OpsWorks stripped-down ELK stack & RabbitMQ.
 
 Repository
 ==========
