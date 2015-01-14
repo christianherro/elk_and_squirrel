@@ -1,0 +1,3 @@
+[submodule "cookbook-elasticsearch"]
+	path = cookbook-elasticsearch
+	url = https://github.com/foxycoder/cookbook-elasticsearch.git
