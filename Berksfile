@@ -3,6 +3,15 @@ source "https://supermarket.getchef.io"
 metadata
 #[submodule "elasticsearch"]
 cookbook 'elasticsearch', git: 'https://github.com/foxycoder/cookbook-elasticsearch.git'
+#[submodule "yum"]
+cookbook 'yum', git: 'https://github.com/opscode-cookbooks/yum.git'
+#[submodule "aws"]
+cookbook 'aws', git: 'https://github.com/opscode-cookbooks/aws.git'
+#[submodule "yumrepo"]
+cookbook 'yumrepo', git: 'https://github.com/bryanwb/cookbook-yumrepo.git'
+#[submodule "htpasswd"]
+cookbook 'htpasswd', git: 'https://github.com/Youscribe/htpasswd-cookbook.git'
+
 #[submodule "kibana"]
 #cookbook 'kibana', git: 'https://github.com/foxycoder/chef-kibana.git'
 #[submodule "logstash"]
@@ -35,8 +44,6 @@ cookbook 'elasticsearch', git: 'https://github.com/foxycoder/cookbook-elasticsea
 #cookbook 'apache2', git: 'https://github.com/opscode-cookbooks/apache2.git'
 #[submodule "ark"]
 #cookbook 'ark', git: 'https://github.com/opscode-cookbooks/ark.git'
-#[submodule "aws"]
-#cookbook 'aws', git: 'https://github.com/opscode-cookbooks/aws.git'
 #[submodule "bluepill"]
 #cookbook 'bluepill', git: 'https://github.com/opscode-cookbooks/bluepill.git'
 #[submodule "build-essential"]
@@ -73,15 +80,9 @@ cookbook 'elasticsearch', git: 'https://github.com/foxycoder/cookbook-elasticsea
 #cookbook 'xfs', git: 'https://github.com/opscode-cookbooks/xfs.git'
 #[submodule "xml"]
 #cookbook 'xml', git: 'https://github.com/opscode-cookbooks/xml.git'
-#[submodule "yum"]
-#cookbook 'yum', git: 'https://github.com/opscode-cookbooks/yum.git'
 #[submodule "rsyslog"]
 #cookbook 'rsyslog', git: 'https://github.com/opscode-cookbooks/rsyslog.git'
 #[submodule "hostsfile"]
 #cookbook 'hostsfile', git: 'https://github.com/foxycoder/hostsfile.git'
 #[submodule "rbenv"]
 #cookbook 'rbenv', git: 'https://github.com/ddux/rbenv-cookbook.git'
-#[submodule "yumrepo"]
-#cookbook 'yumrepo', git: 'https://github.com/bryanwb/cookbook-yumrepo.git'
-#[submodule "htpasswd"]
-#cookbook 'htpasswd', git: 'https://github.com/Youscribe/htpasswd-cookbook.git'
